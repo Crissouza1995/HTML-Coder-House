@@ -1,0 +1,58 @@
+        /*estilos-->*/
+        /* Comentario en CSS*/
+        /*Selector de etiqueta*/
+
+        h1{
+
+            color: blue;
+            font-size: 40px;
+        }
+        h2 {
+            color: red;
+            font-size: 30px;
+        }
+
+        h3 {
+            color: cadetblue;
+            font-size: 35px;
+        }
+
+        /*Selector de ID #id*/
+
+        #titulo {
+            color: blue;
+            font-size: 39px;
+
+        }
+        /*Selector de clase .clase*/
+      
+
+        .main{
+            background-color: aquamarine;
+        }
+
+        .borde{
+
+           border: 3px solid red;
+        }
+
+        /*Especifidad*/
+
+        a.borde{
+            border: 2px solid blue;
+        }
+        .lista{
+            border: 2px solid black;
+        }
+        .formulario{
+            background-color: aqua;
+            border: 2px solid red;
+        }
+        .nosotros{
+            background-image: url(../Media/yo.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+        }
+
+
